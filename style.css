@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(24, 0, 46);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.headerLinks {
+}
