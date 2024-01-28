@@ -131,3 +131,49 @@ button {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+.footer {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.callToAction {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    max-width: 1000px;
+    margin: 100px 315px;
+    padding: 20px 75px;
+    border-radius: 10px;
+    gap: 275px;
+}
+
+.actionText {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.actionTitle {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.actionSub {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.footerButton {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    max-width: 100px;
+    max-height: 30px;
+}
