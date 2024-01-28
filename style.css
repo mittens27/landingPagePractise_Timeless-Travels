@@ -20,9 +20,19 @@ ul {
     padding: 0;
 }
 
+button {
+    border-radius: 7px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+
 .hero {
     display: flex;
-    padding: 10px;
+    padding: 15px 315px 0px 315px;
     background-color: rgb(24, 0, 46);
     justify-content: space-between;
     align-items: center;
@@ -36,4 +46,33 @@ ul {
 }
 
 .headerLinks {
+    color: #E5E7EB;
+}
+
+.lowerHero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 315px;
+    background-color: rgb(24, 0, 46);
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainHeroHeader {
+    display: flex;
+    max-width: 300px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.heroSubText {
+    display: flex;
+    max-width: 400px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
