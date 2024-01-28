@@ -111,3 +111,23 @@ button {
     border-style: solid;
     border-color: rgb(24, 0, 46);
 }
+
+.quoteSection {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 400px;
+    background-color: rgb(199, 187, 202);
+    color: rgb(24, 0, 46);
+}
+
+.quote {
+    display: flex;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quoter {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
