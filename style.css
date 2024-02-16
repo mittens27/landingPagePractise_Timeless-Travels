@@ -80,6 +80,8 @@ button {
 .informationSection {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 25px 400px 60px 400px;
     text-align: center;
     color: rgb(24, 0, 46);
@@ -175,5 +177,9 @@ button {
     border-style: solid;
     border-color: #E5E7EB;
     max-width: 100px;
-    max-height: 30px;
+    max-height: 35px;
+}
+
+#ftrBtn {
+    margin: 0px;
 }
